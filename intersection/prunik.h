@@ -20,12 +20,16 @@
  * @param a_end end of the interval
  * @param part number to find in interval
  */
-int isPartOfInterval(TYPE a_begin, TYPE a_end , TYPE part );
+extern int isPartOfInterval(TYPE a_begin, TYPE a_end , TYPE part );
 
-int intersection (
+#pragma mark Intersection
+#pragma mark -
+extern int intersection (
                   TYPE a_begin, TYPE a_end,
                   TYPE b_begin, TYPE b_end,
                   TYPE* result_begin, TYPE* result_end
                   );
+
+extern void insertion_test();
 
 #endif /* defined(__intersection__prunik__) */

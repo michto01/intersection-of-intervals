@@ -26,7 +26,6 @@
 /* Begin PBXFileReference section */
 		B59303E01A1F2FA200129681 /* intersection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = intersection; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59303E31A1F2FA200129681 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		B59303EA1A1F300B00129681 /* intersection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intersection.h; sourceTree = "<group>"; };
 		B59303EB1A1F30A400129681 /* prunik.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prunik.c; sourceTree = "<group>"; };
 		B59303EC1A1F30A400129681 /* prunik.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prunik.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				B59303E31A1F2FA200129681 /* main.c */,
-				B59303EA1A1F300B00129681 /* intersection.h */,
 				B59303EB1A1F30A400129681 /* prunik.c */,
 				B59303EC1A1F30A400129681 /* prunik.h */,
 			);
