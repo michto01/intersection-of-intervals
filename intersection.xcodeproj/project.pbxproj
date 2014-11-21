@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B59303E41A1F2FA200129681 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B59303E31A1F2FA200129681 /* main.c */; };
+		B59303ED1A1F30A400129681 /* prunik.c in Sources */ = {isa = PBXBuildFile; fileRef = B59303EB1A1F30A400129681 /* prunik.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		B59303E01A1F2FA200129681 /* intersection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = intersection; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59303E31A1F2FA200129681 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B59303EA1A1F300B00129681 /* intersection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intersection.h; sourceTree = "<group>"; };
+		B59303EB1A1F30A400129681 /* prunik.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prunik.c; sourceTree = "<group>"; };
+		B59303EC1A1F30A400129681 /* prunik.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prunik.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				B59303E31A1F2FA200129681 /* main.c */,
+				B59303EA1A1F300B00129681 /* intersection.h */,
+				B59303EB1A1F30A400129681 /* prunik.c */,
+				B59303EC1A1F30A400129681 /* prunik.h */,
 			);
 			path = intersection;
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59303ED1A1F30A400129681 /* prunik.c in Sources */,
 				B59303E41A1F2FA200129681 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
